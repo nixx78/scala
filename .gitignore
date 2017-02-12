@@ -1,0 +1,7 @@
+.metadata/
+*/.cache-main
+*/.classpath
+*/.project
+*/.settings/
+*/bin/
+*/target/
