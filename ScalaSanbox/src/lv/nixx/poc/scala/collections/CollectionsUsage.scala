@@ -14,7 +14,6 @@ object CollectionsUsage extends App {
   txns.foreach(println)
   
   val s = txns.map(_.getAmount()).sum
-  
   println(s)
   
   
