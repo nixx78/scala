@@ -45,7 +45,11 @@ object CollectionsUsage extends App {
   println(t)
   
   val txnAmount = txnMap.get("key5") match  {
-        case Some(txn) =>  txn.getAmount()
+        case Some(txn) =>  { 
+          txn.getAmount()
+          println("Currency:" + txn._currency)
+          
+        }
         case None => 0
   }
   
@@ -61,5 +65,6 @@ object CollectionsUsage extends App {
 
   
   map.foreach(println)
+  
   
 }

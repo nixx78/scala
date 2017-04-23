@@ -10,6 +10,19 @@ object Sandbox extends App {
     
       println(c.car);
       println(c);
+ 
       
+    var i = 1
+    
+    val a = if (i == 1) 10 else 20;
+    
+    println(a);
+    
+  
+    val c1 = new Customer("name", "surname", 25)
+    
+    println("s:" + c1.car);
+    
+
   
 }
